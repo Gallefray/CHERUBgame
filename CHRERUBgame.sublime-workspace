@@ -1,0 +1,850 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wall",
+				"wallH"
+			],
+			[
+				"q_",
+				"q_player"
+			],
+			[
+				"isDown",
+				"love.keyboard.isDown"
+			],
+			[
+				"downAnd",
+				"downAndLeft"
+			],
+			[
+				"graphi",
+				"love.graphics.setFont"
+			],
+			[
+				"circ",
+				"love.graphics.circle"
+			],
+			[
+				"graph",
+				"love.graphics.setFont"
+			],
+			[
+				"r",
+				"love.run"
+			],
+			[
+				"dirTh",
+				"dirThree"
+			],
+			[
+				"dirTw",
+				"dirTwo"
+			],
+			[
+				"telept",
+				"teleptReciv"
+			],
+			[
+				"enemy",
+				"enemyMove"
+			],
+			[
+				"retun",
+				"returnTable"
+			],
+			[
+				"key",
+				"love.keypressed"
+			],
+			[
+				"carry",
+				"carryBox"
+			],
+			[
+				"setPo",
+				"love.mouse.setPosition"
+			],
+			[
+				"return",
+				"returnTable"
+			],
+			[
+				"play",
+				"playerMove"
+			],
+			[
+				"isD",
+				"love.mouse.isDown"
+			],
+			[
+				"rect",
+				"love.graphics.rectangle"
+			],
+			[
+				"set",
+				"love.graphics.setColor"
+			],
+			[
+				"rec",
+				"love.graphics.rectangle"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"aY",
+				"aY"
+			],
+			[
+				"box",
+				"box1"
+			],
+			[
+				"curr",
+				"currentLevel"
+			],
+			[
+				"ice",
+				"iceentitycollide"
+			],
+			[
+				"en",
+				"entity-__"
+			],
+			[
+				"mo",
+				"movespeed"
+			],
+			[
+				"move",
+				"movespeed"
+			],
+			[
+				"player",
+				"player"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"gr",
+				"Graphics"
+			],
+			[
+				"sl",
+				"slipperyness"
+			],
+			[
+				"grid",
+				"grid_y"
+			],
+			[
+				"di",
+				"dist"
+			],
+			[
+				"bo",
+				"boxCollide"
+			],
+			[
+				"else",
+				"elseif"
+			],
+			[
+				"anom",
+				"anomaly1"
+			],
+			[
+				"ano",
+				"anomaly1"
+			],
+			[
+				"enem",
+				"enemyplayercollide"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"lo",
+				"love"
+			],
+			[
+				"coll",
+				"playerCollide"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"act",
+				"act_y"
+			],
+			[
+				"gri",
+				"grid_y"
+			],
+			[
+				"ac",
+				"act_x"
+			],
+			[
+				"ini",
+				"__init"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"mr",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"PT",
+				"PTSansBoldItalic"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"PTSansB",
+				"PTSansCaptionBold"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"out",
+				"outline-style"
+			],
+			[
+				"bck",
+				"background-attachment"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"D",
+				"DT	Tag"
+			],
+			[
+				"t",
+				"title	Tag"
+			],
+			[
+				"a",
+				"anomaly1"
+			],
+			[
+				"me",
+				"messagerun"
+			],
+			[
+				"an",
+				"animal"
+			],
+			[
+				"animal",
+				"animallist"
+			],
+			[
+				"message",
+				"messagerun"
+			],
+			[
+				"pl",
+				"playerCollide"
+			],
+			[
+				"playe",
+				"player"
+			],
+			[
+				"fl",
+				"false"
+			],
+			[
+				"Pl",
+				"playerCollide"
+			],
+			[
+				"g",
+				"gX"
+			],
+			[
+				"conveyor",
+				"conveyorbelt"
+			],
+			[
+				"new",
+				"newImage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 3495,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "animations.lua",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conf.lua",
+			"settings":
+			{
+				"buffer_size": 1605,
+				"line_ending": "Windows",
+				"name": "function love.conf(t)"
+			}
+		},
+		{
+			"file": "/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/extendedMath.lua",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "depCode.lua",
+			"settings":
+			{
+				"buffer_size": 2118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TODO",
+			"settings":
+			{
+				"buffer_size": 75,
+				"line_ending": "Windows",
+				"name": "TODO:"
+			}
+		}
+	],
+	"build_system": "Packages/SublimeLove/Love.sublime-build",
+	"command_palette":
+	{
+		"height": 272.0,
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/contents.txt",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/DragonVayneR2/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/depCode.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/CHERUBgamePrototype/main.lu.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/RogueLikeTest/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/personal/lua/tableTest.lua",
+		"/C/Users/Finn/Desktop/Doom3BFG_CCv2.0bat",
+		"/C/Users/Finn/Desktop/Doom.3.BFG.Edition-SKIDROW/skidrow.nfo",
+		"/C/clean/log/2012-07-21__14h06boot-repair04/2012-07-21__14h06.boot-repair.log.tee",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/sokoblobR3/sokoblobR3.sublime-workspace",
+		"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/personal/lua/love tests/mkdirStuff/main.lua",
+		"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/sokoblobR3/editorBackup.lua",
+		"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/personal/lua/tablesTest.lua",
+		"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/personal/lua/helloWorld.lua",
+		"/C/FPC/2.6.0/bin/i386-win32/fpc.cfg",
+		"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/professional/website design/Polyhedron Design/js/overlay.js",
+		"/home/finn/Dropbox/Git_Repo/professional/website design/Polyhedron Design/css/style.css",
+		"/home/finn/Dropbox/Git_Repo/professional/website design/Polyhedron Design/about.html",
+		"/home/finn/Dropbox/Git_Repo/professional/website design/Polyhedron Design/webdev.html",
+		"/home/finn/Dropbox/Git_Repo/professional/website design/Polyhedron Design/games_root.html",
+		"/home/finn/Dropbox/Git_Repo/professional/website design/Polyhedron Design/index.html",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/Desktop/other stuff/gzdoom-bin-1-5-06/zdoom-Finn.ini",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/Desktop/Desktop files/doomrl-win-0996-lq/doomrl-win-0996-lq/config.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/website design/tumblr like website/css/tumblr-styles.txt",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/website design/tumblr like website/css/fonts.css",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/GitHub/sokoblob/Lua/gridlocked player/main.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/lua/animals program/animals.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/lua/animals program/main.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/Desktop/gzdoom-bin-1-5-06/zdoom-Finn.ini",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/lua/environment.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/animals program/animals.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/animals program/main.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/personal/epicness.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/main.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/depracated_code_graveyard.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/conf.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/classes.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/maps.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/Desktop/DevKit/config.yml",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/Desktop/gridlocked player/conf.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/Sokoblob/gridlocked player/main_collision_backup",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/classes.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/depracated_code_graveyard.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/conf.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/maps.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/main.lua",
+		"/C/Documents and Settings/Finn.BERNARD-H5B21OH/My Documents/Dropbox/Git_Repo/professional/game and program development/gridlocked player/main_collision_backup"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/screen.scale",
+			"48",
+			"128",
+			"down",
+			"up",
+			"if l",
+			"or l",
+			"-- /screen.scale",
+			"/screen.scale",
+			"drawq",
+			"-- , nil, screen.scale, screen.scale",
+			"H",
+			"h",
+			"H",
+			"noteW",
+			"player.w",
+			"noteW",
+			"player.w",
+			"5",
+			"note",
+			"5",
+			" * 1/",
+			"1]",
+			"es",
+			"wall",
+			"/2",
+			"screen",
+			"scale",
+			"a",
+			"tileset",
+			"16",
+			"64",
+			"0",
+			"scale",
+			"0",
+			"200",
+			".y",
+			"y",
+			"x",
+			"/",
+			"\\\\",
+			"os",
+			"levelDir",
+			"secLevelDir",
+			"levelDir",
+			"LevelDir",
+			"levelDir",
+			"masterDir",
+			"\"",
+			"levelDir",
+			"masterDir",
+			"x",
+			"print(",
+			"wall",
+			"-",
+			"+",
+			"2",
+			"convBelt",
+			"y",
+			"exit",
+			"1",
+			"wall",
+			"player.moveDirect = \"neutral\"",
+			"x",
+			"32 * dt",
+			"player.y",
+			"X",
+			"rgy",
+			"x",
+			"X",
+			"x",
+			"X",
+			"x",
+			"X",
+			"Y",
+			"/",
+			"<jedi-sdl-path>/JEDI-SDLv1.0/",
+			"=\"",
+			"html",
+			"<a href=\"#\">",
+			"</a>",
+			"=",
+			"\"",
+			"Gallefray",
+			"(",
+			"://",
+			"li",
+			"ul",
+			"right",
+			"player",
+			"entity",
+			"water",
+			">\n",
+			"chicken hamburger",
+			"chiken hamburger",
+			"40",
+			"=\"../\">",
+			"	\n",
+			";\n",
+			">\n",
+			"entity",
+			"player"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"entity",
+			"player",
+			"plyer",
+			"entity"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"settings":
+					{
+						"buffer_size": 3495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 200.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "animations.lua",
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "conf.lua",
+					"settings":
+					{
+						"buffer_size": 1605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function love.conf(t)",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/extendedMath.lua",
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "depCode.lua",
+					"settings":
+					{
+						"buffer_size": 2118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1637,
+								1637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "TODO",
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"auto_name": "TODO:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 384.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Documents and Settings/Finn/My Documents/Dropbox/Git_Repo/personal/lua/IRCbots/luaIRCBot.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}
