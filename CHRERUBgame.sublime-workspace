@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"dialog",
+				"dialogOn"
+			],
+			[
+				"back",
+				"love.graphics.setBackgroundColor"
+			],
+			[
 				"wall",
 				"wallH"
 			],
@@ -264,10 +272,6 @@
 				"PTSansCaptionBold"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"out",
 				"outline-style"
 			],
@@ -355,32 +359,15 @@
 			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 3495,
+				"buffer_size": 802,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "animations.lua",
+			"file": "singlePlayerGameEng.lua",
 			"settings":
 			{
-				"buffer_size": 1233,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conf.lua",
-			"settings":
-			{
-				"buffer_size": 1605,
-				"line_ending": "Windows",
-				"name": "function love.conf(t)"
-			}
-		},
-		{
-			"file": "/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/extendedMath.lua",
-			"settings":
-			{
-				"buffer_size": 214,
+				"buffer_size": 3234,
 				"line_ending": "Windows"
 			}
 		},
@@ -388,17 +375,8 @@
 			"file": "depCode.lua",
 			"settings":
 			{
-				"buffer_size": 2118,
+				"buffer_size": 338,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "TODO",
-			"settings":
-			{
-				"buffer_size": 75,
-				"line_ending": "Windows",
-				"name": "TODO:"
 			}
 		}
 	],
@@ -426,9 +404,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/contents.txt",
-		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/DragonVayneR2/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/oldStuff/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/TODO",
 		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/depCode.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/extendedMath.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/conf.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/animations.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/newPrototypes/CHERUBgamePrototype/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/sokoblobR3/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/polyhedron design/code/DragonVayneR2/main.lua",
+		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/contents.txt",
 		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/CHERUBgamePrototype/main.lu.lua",
 		"/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/RogueLikeTest/main.lua",
 		"/C/Users/Finn/Dropbox/Git_Repo/personal/lua/tableTest.lua",
@@ -490,6 +475,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0",
+			"wall",
+			"=",
+			"2",
+			".y",
+			"1",
+			"100",
+			"64",
+			"player",
+			"y",
+			"tileset",
+			"80",
+			"player.w = 48",
+			"player.w = 120 -- /screen.scale\n		player.h = 48 -- /screen.scale",
+			"scale",
+			"80",
+			"120",
 			"/screen.scale",
 			"48",
 			"128",
@@ -613,7 +615,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -621,15 +623,15 @@
 					"file": "main.lua",
 					"settings":
 					{
-						"buffer_size": 3495,
+						"buffer_size": 802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								912,
-								912
+								718,
+								718
 							]
 						],
 						"settings":
@@ -638,25 +640,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "animations.lua",
+					"file": "singlePlayerGameEng.lua",
 					"settings":
 					{
-						"buffer_size": 1233,
+						"buffer_size": 3234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								2580,
+								2580
 							]
 						],
 						"settings":
@@ -665,112 +667,30 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "conf.lua",
-					"settings":
-					{
-						"buffer_size": 1605,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								700,
-								700
-							]
-						],
-						"settings":
-						{
-							"auto_name": "function love.conf(t)",
-							"syntax": "Packages/SublimeLove/Love.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Finn/Dropbox/Git_Repo/professional/game and program development/homebrewLibs/extendedMath.lua",
-					"settings":
-					{
-						"buffer_size": 214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SublimeLove/Love.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "depCode.lua",
 					"settings":
 					{
-						"buffer_size": 2118,
+						"buffer_size": 338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1637,
-								1637
+								163,
+								120
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SublimeLove/Love.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "TODO",
-					"settings":
-					{
-						"buffer_size": 75,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75,
-								75
-							]
-						],
-						"settings":
-						{
-							"auto_name": "TODO:",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
