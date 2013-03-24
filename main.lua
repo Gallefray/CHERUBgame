@@ -36,14 +36,14 @@ function variables()
 	player.y = 300
 	player.w = 32
 	player.h = 32
-	player.moveDirect = "up"
 	player.moveSpeed = 64
 	player.inventory = {}
 	player.dialogOn = false
+	player.direct = {up, down, left, right}
 
 	diagText = "END"
 
 	-- ent's
 	walls = {{256, 256}}
-	notes = {{128, 128, 0, "NOTEYNOTEY UGUU~"}}
+	notes = {{128, 128, 0, "NOTEYNOTEY UGUU~"}, {128, 256, 0, "NOMMY NOM NOM"}}
 end

@@ -1,3 +1,4 @@
+-- NOM == dt
 function drawMainGame()
 	for each, wall in pairs(walls) do  -- Look into sprite batches?
 		love.graphics.setColor(0, 0, 255, 255)
@@ -22,11 +23,11 @@ function drawMainGame()
 	end
 end
 
-function gameLogic(dt)
+function gameLogic(NOM)
 end
 
 
-function gameControls(dt)
+function gameControls(NOM)
 	if love.keyboard.isDown("escape") then
 		love.event.quit()
 	end
@@ -39,20 +40,28 @@ function gameControls(dt)
 		end
 
 		if love.keyboard.isDown("w") or love.keyboard.isDown("up") then
-			player.y = player.y - player.moveSpeed * dt
-			player.moveDirect = "up"
+			player.y = player.y - player.moveSpeed * NOM
+			player.direct.up = true
+		else 
+			player.direct.up = false
 		end
 		if love.keyboard.isDown("s") or love.keyboard.isDown("down") then
-			player.y = player.y + player.moveSpeed * dt
-			player.moveDirect = "down"
+			player.y = player.y + player.moveSpeed * NOM
+			player.direct.down = true
+		else
+			player.direct.down = false
 		end
 		if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
-			player.x = player.x - player.moveSpeed * dt
-			player.moveDirect = "left"
+			player.x = player.x - player.moveSpeed * NOM
+			player.direct.left = true
+		else 
+			player.direct.left = false
 		end
 		if love.keyboard.isDown("d") or love.keyboard.isDown("right") then
-			player.x = player.x + player.moveSpeed * dt
-			player.moveDirect = "right"
+			player.x = player.x + player.moveSpeed * NOM
+			player.direct.right = true
+		else
+			player.direct.right = false
 		end
 		if love.keyboard.isDown("e") then
 			for each, note in pairs(notes) do
@@ -66,34 +75,38 @@ function gameControls(dt)
 
 	function love.keypressed(drunkenKey)
 		if drunkenKey == "return" then
-			print("WOOWOOOWOOOWOOOWOO")
+			-- print("WOOWOOOWOOOWOOOWOO")
 			diagText = "END"
 			player.dialogOn = false
 		end
 	end
 end
 
-function collisions(dt)
+function collisions(NOM) -- NOM is delta time (Look it up, fuzzball!)
 	if player.dialogOn == false then
 		for each, wall in pairs(walls) do
 			-- print("running")
 			if player.y < wall[2]+32 and player.y+32 > wall[2] and player.x < wall[1]+32 and player.x+32 > wall[1] then
-				if player.y <= wall[2]+16 then
-					player.y = player.y - player.moveSpeed * dt
-				elseif player.y >= wall[2]+16 then
-					player.y = player.y + player.moveSpeed * dt
+				-- print("WOO WOO WOOO WOO")
+				if player.direct.up == true then
+				    player.y = player.y + player.moveSpeed * NOM
 				end
-				if player.x <= wall[1]+16 then
-					player.x = player.x - player.moveSpeed * dt
-				elseif player.x >= wall[1]+16 then
-					player.x = player.x + player.moveSpeed * dt
+				if player.direct.down == true then
+					player.y = player.y - player.moveSpeed * NOM
 				end
+				if player.direct.left == true then
+					player.x = player.x + player.moveSpeed * NOM
+				end
+				if player.direct.right == true then
+					player.x = player.x - player.moveSpeed * NOM
+				end
+
 			end
 		end
 		for each, note in pairs(notes) do
 			if note ~= 2 then
 				if player.y < note[2]+32 and player.y+32 > note[2] and player.x < note[1]+32 and player.x+32 > note[1] then
-						note[3] = 1
+					note[3] = 1
 				else
 					note[3] = 0
 				end
